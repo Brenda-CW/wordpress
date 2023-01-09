@@ -1,0 +1,324 @@
+/*  CHILD THEME OF SKILLCRUSHSTARTER
+Theme Name: Skillcrush Starter Child
+Theme URI: http://example.com/skillcrushstarter-child/
+Author: Brenda Whetstone
+Author URI: http://example.com
+Template:  skillcrushstarter
+Description: Skillcrush Starter Theme
+Version: 2.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: skillcrushstarterchild
+*/
+
+/* http://meyerweb.com/eric/tools/css/reset/
+	v2.0 | 20110126
+	License: none (public domain)
+*/
+
+
+/** theme styles start here! **/
+/* FONTS */
+
+@font-face {
+	font-family: 'Montserrat';
+	src: url('fonts/montserrat-regular.eot');
+	src: url('fonts/montserrat-regular.eot?#iefix') format('embedded-opentype'),
+		url('fonts/montserrat-regular.woff') format('woff'),
+		url('fonts/montserrat-regular.ttf') format('truetype');
+	font-weight: normal;
+		font-weight: 100;
+	font-style: normal;
+}
+
+html {
+	font-size: 16px;
+  }
+
+h1 {
+	font-family: "Raleway", sans-serif;
+	font-size: 2.25rem;
+	font-weight: bold;
+  }
+  
+  h2 {
+	font-family: "Raleway", sans-serif;
+	/*text-transform: uppercase;*/
+	font-size: 1.5rem;
+	font-weight: 700;
+	padding: 15px 15px;
+  }
+  
+  h3 {
+	font-family: "Raleway", sans-serif;
+	font-style: italic;
+	font-size: 1.375rem;
+	font-weight: 700;
+	padding: 25px 10px;
+  }
+  
+  h4 {
+	font-family: "Raleway", sans-serif;
+	font-size: 1.125rem;
+	font-weight: 700;
+	padding: 20px 0px 10px 0px;
+  }
+
+  p {
+	font-size: 16px;
+	font-size: 1em;
+	line-height: 1.75;
+	font-family: 'Montserrat', sans-serif;
+	letter-spacing: -0.01em;
+	margin: 1em auto;
+	font-weight: 100;
+}
+
+/* MAIN STYLES */
+
+a {
+	text-decoration: none;
+	color: rebeccapurple;
+}
+
+input[type="button"],
+input[type="submit"] {
+	font: 700 1.125em/3.5 'Montserrat', sans-serif;
+	color: #fff;
+	background: #663399;
+	border: none;
+	padding: 0 2em;
+}
+
+/* End MAIN STYLES */
+
+/* BODY STYLES */
+
+body {
+	background: #fff;
+	border-top: 6px solid rebeccapurple;
+	color: #3b3b3b;
+	font-size: 16px;
+	font-size: 1em;
+	line-height: 1.65;
+	font-family: 'Montserrat', sans-serif;
+	letter-spacing: -0.01em;
+}
+
+.page-header .top-logo .title {
+	color: rebeccapurple;
+	font: 700 1.88em/1.3125 'Pacifico';
+	letter-spacing: -0.034em;
+	display: block;
+	font-style: italic;
+	text-transform: none;
+}
+
+.page-header .top-nav ul li:hover > a{
+	border-bottom: 1px solid rebeccapurple;
+}
+
+.home .content h1 {
+	font: 700 2.25em/1.5 'Raleway', sans-serif;
+}
+
+.home .content p {
+	font: 1em/2 'Montserrat', sans-serif;
+	font-weight: 100;
+}
+
+.home .content p a {
+    font-weight: 400;
+    /* text-decoration: underline; */
+    color: #663399;
+    font-family: Pacifico;
+}
+
+/* End BODY STYLES */
+
+/* BLOG STYLES */
+.entry-title {
+	margin: 0.25em 0 0.5em;
+	font: 700 1.5em/1.5 'Raleway', sans-serif;
+	letter-spacing: -0.034em;
+}
+
+.entry-title a:hover {
+	color: rebeccapurple;
+}
+.entry-time {
+	color: rebeccapurple;
+	font: 600 .82em/1.65 'OpenSans', Arial, sans-serif;
+}
+
+.category .page-title span {
+	color: rebeccapurple;
+}
+.entry-summary a {
+	color: rebeccapurple;
+	text-decoration: underline;
+	font-weight: 600;
+}
+
+.post-entry .read-more a{
+	font-size: 13px;
+	font-size: .8em;
+	font-family: 'OpenSans', Arial, sans-serif;
+	color: rebeccapurple;
+	font-weight: 600;
+	text-transform: uppercase;
+	text-decoration: none;
+	margin-top: 1em;
+}
+
+.post-entry .read-more a:hover {
+	border-bottom: 1px solid rebeccapurple;
+}
+
+.entry-footer .entry-terms a:hover {
+	border-bottom: 1px solid rebeccapurple;
+}
+
+/* End BLOG STYLES */
+
+
+/* SIDEBAR STYLES */
+
+#sidebar .widget_search input[type="submit"] {
+	width: 13%;
+	border-top: 1px solid #a6a6a6;
+	border-bottom: 1px solid #a6a6a6;
+	border-right: 1px solid #a6a6a6;
+	border-left: none;
+	font: .875em/1.75em 'Open Sans', Arial, sans-serif;
+	height: 2.6em;
+	background: url('img/white-arrow-right.png') no-repeat center rebeccapurple;
+	color: #ffffff;
+	margin-left: -5px;
+	padding: 0;
+	vertical-align: middle;
+}
+#sidebar .widget_categories h2,
+#sidebar .widget_archive h2 {
+	font: 700 .875em/1.75 'OpenSans', Arial, sans-serif;
+	color: rebeccapurple;
+	margin: 0 auto 1.25em;
+}
+
+/* End SIDEBAR STYLES */
+
+
+/* NEXT / PREV STYLES */
+
+#navigation .left a,
+#navigation .right a {
+	color:rebeccapurple;
+	text-decoration: none;
+	font-weight: 600;
+	text-transform: uppercase;
+}
+
+
+/* media queries */
+
+/* End NEXT / PREV STYLES */
+
+
+/* SINGLE POST STYLES */
+
+.comment-list .comment a {
+	color: rebeccapurple;
+	text-decoration: none;
+}
+
+.comments-area .comment-reply-title {
+	color: rebeccapurple;
+	font: 700 1.176em/1.75 'Montserrat', 'OpenSans', Arial, sans-serif;
+	text-transform: uppercase;
+	margin: 2em 0 1em;
+}
+.comments-area .comment-reply-title a {
+	color: rebeccapurple;
+}
+
+.comments-area .comment-form p a {
+	color: rebeccapurple;
+}
+
+.comments-area .comment-form input[type="submit"] {
+	background: rebeccapurple;
+	width: 12.875em;
+	height: 3.5em;
+	font: 700 1.25em/2.5 'Montserrat', 'OpenSans', Arial, sans-serif;
+	color: #fff;
+	margin: 1.5em 0;
+	float: right;
+}
+/* End SINGLE POST STYLES */
+
+
+/* PAGE STYLES and CUSTOM TEMPLATE STYLES*/
+.page .entry-title {
+    font-weight: 500;
+    text-align: center;
+    border-bottom: 0.07em solid rebeccapurple;
+    padding-bottom: .5em;
+}
+
+/* End PAGE STYLES */
+
+
+/* HOMEPAGE STYLES */
+
+.wp-block-social-links:not(.is-style-logos-only) .wp-social-link-github, 
+.wp-block-social-links:not(.is-style-logos-only) .wp-social-link-linkedin {
+    background-color: rebeccapurple;
+    color: #fff;
+}
+
+/* .wp-block-social-links:not(.is-style-logos-only) .wp-social-link-linkedin {
+    background-color: #0d66c2;
+    color: #fff;
+} */
+
+.home .content .social-btns {
+    margin-bottom: 0em;
+} 
+
+
+.home .content .soc-icon.fb {
+	display: none;
+}
+
+.home .content .soc-icon.ln {
+	display: none;
+}
+
+
+.home .content .soc-icon.gh {
+	display: none;
+}
+
+
+.home .btn {
+	background: rebeccapurple;
+	color: #fff;
+	font: 700 1.125em/3.5 'Montserrat', 'OpenSans', Arial, sans-serif;
+	display: inline-block;
+	height: 3.5em;
+	width: 100%;
+	padding: 0 1.25em;
+	text-align: center;
+	text-decoration: none;
+}
+
+
+/* End HOMEPAGE STYLES */
+
+/* WP Popular Posts Sidebar Plugin SYTLES */
+
+.wpp-post-title, .wpp-taxonomy, .cat-item {
+	color: rebeccapurple
+}
+
+/* End of WP Popular Posts Sidebar Plugin SYTLES */
